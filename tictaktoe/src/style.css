@@ -1,7 +1,41 @@
-.icon{
+.iconc{
+    color: green;
+    font-size: 30px;
+}
+.icono{
     color: red;
     font-size: 30px;
 }
+
 body{
-    background-color: #71b9ec;
+    background-color: #051428;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+
+}
+.box{
+
+    width:auto;
+    height:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.turn{
+    color:white;
+    
+}
+
+.c{
+    align-items:center;
+    justify-content:center;
+    margin-bottom: 15px;
+    display: grid;
+    margin: auto;
+    margin-bottom: 15px;
 }
